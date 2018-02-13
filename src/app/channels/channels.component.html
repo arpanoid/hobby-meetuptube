@@ -1,0 +1,17 @@
+<mat-expansion-panel *ngFor="let channelTopic of channelTopics">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        {{channelTopic.topic}}
+      </mat-panel-title>
+    </mat-expansion-panel-header>
+    <mat-list>
+      <mat-list-item 
+        class="channel-item" 
+        *ngFor="let channel of channelTopic.channels"
+        (click)="onChannelClick(channel)"
+        >
+        <p mat-line>{{channel.name}}</p>
+        <mat-icon>add_circle_outline</mat-icon>
+      </mat-list-item>
+    </mat-list>
+  </mat-expansion-panel>

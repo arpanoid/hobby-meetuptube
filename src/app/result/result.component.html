@@ -1,0 +1,13 @@
+<div class="results-container">
+  <mat-card class="result-item" *ngFor="let video of videoList">
+    <mat-card-header>
+      <mat-card-title>{{video.title}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <div class="video-thumbnail" routerLink="/play/{{video.videoId}}">
+        <img mat-card-image class="" [src]="video.thumbnail.url" [alt]="video.title">
+      </div>
+      <div class="result-description">{{video.description}}</div>
+    </mat-card-content>
+  </mat-card>
+</div>
