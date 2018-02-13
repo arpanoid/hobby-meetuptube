@@ -1,0 +1,12 @@
+::ng-deep .mat-input-container{
+    width: 400px;
+}
+
+.mat-toolbar-row{
+    display: flex;
+    justify-content: center;
+}
+
+.mat-toolbar{
+    background-color: #558C89;
+}

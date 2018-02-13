@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.mat-list-item-ripple{
+    margin-left: 16px;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ECECEA;
+}

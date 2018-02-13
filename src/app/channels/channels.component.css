@@ -1,0 +1,13 @@
+::ng-deep .sidebar .mat-expansion-panel{
+    margin-bottom: 10px;
+    padding: 0 0 16px;
+    background-color: #ECECEA;
+}
+
+::ng-deep .sidebar .mat-expansion-panel-body{
+    padding: 0 0 16px;
+}
+
+::ng-deep .channel-item{
+    cursor: pointer;
+}
